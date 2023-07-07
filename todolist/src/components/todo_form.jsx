@@ -16,7 +16,7 @@ const TodoForm = ({adiciona_tarefa}) => {
             onChange={ // isso aqui serve para capturar o que o usuário escreve ao longo do input
                 (e) => set_value(e.target.value)
                 }/>
-            <button type='submit' className='todo-btn'>Bota</button>
+            <button type='submit' className='todo-btn'>Adicionar</button>
         </form>
     );
 }
